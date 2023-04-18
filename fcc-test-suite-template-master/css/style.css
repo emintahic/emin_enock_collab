@@ -22,4 +22,20 @@ body {
 .main {
     margin-top: 300px;
 }
+@media (max-width: 600px) {
+  body {
+    background-color: rgb(122, 78, 178);
+  }
+}
+#header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
 
+.logo img {
+  width: 100%;
+  max-width: 200px;
+  height: auto;
+}

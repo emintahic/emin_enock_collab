@@ -15,13 +15,24 @@
     <nav id="nav-bar">
       <ul>
         <li><a href="#home" class="nav-link">Home</a>Home</li>
-        <li> <a href="#shop" class=""nav-link>Shop</a></li>
+        <li> <a href="#shop" class="nav-link">Shop</a></li>
         <li><a href="#aboutus" class="nav-link>About Us</a></li>
       </ul>
     </nav>
    </header>
    <h2 id="home">Home Page</h2>
-   <video id="video" width="320" height="240" controls> <source src="cadbury.mp4"></video>
+   <form>
+    <label for="email">Type your email:</label><br>
+    <input type="email" id="email" name="email" placeholder="Your Email"><br>
+    <input id="submit" type="submit" value="Get Started" class="btn" action="https://www.freecodecamp.com/email-submit" />
+   </form>
+   <iframe
+            id="video"
+            height="315"
+            src="cadbury.mp4"
+            frameborder="0"
+            allowfullscreen
+          ></iframe>
     <script  src="js/index.js"></script>
   </body>
 </html>
